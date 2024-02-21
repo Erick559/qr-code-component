@@ -48,3 +48,28 @@ img{
 .text-container p:nth-child(2){
     text-align: center;
 }
+
+@media only screen and (min-width: 1100px) {
+    .container{
+        width:300px;
+        border-radius: 20px;
+    }
+
+    .img-container{
+        border-radius: 20px;
+        margin-bottom: 15px;
+    }
+
+    .text-container p:nth-child(1){
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .text-container p:nth-child(2){
+        font-size: 15px;
+    }
+
+    .text-container{
+        padding-bottom: 10px;
+    }
+}
